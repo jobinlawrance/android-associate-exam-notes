@@ -7,7 +7,9 @@ Reference - https://developers.google.com/training/certification/associate-andro
 ### Testing and debugging
 Writing tests to verify that the application's logic and user interface are performing as expected, and executing those tests using the developer tools. Candidates should be able to analyze application crashes, and find common bugs such as layout errors and memory leaks. This includes working with the debuggers to step through application code and verify expected behavior.  
 - [ ] Write and execute a local JVM unit test  
-	* [Testing Android MVP](https://medium.com/@Miqubel/testing-android-mvp-aa0de6e165e4) (Mockito and Roboelectric)  
+	* [Testing Android MVP](https://medium.com/@Miqubel/testing-android-mvp-aa0de6e165e4) (overview)  
+	* [Mockito](http://www.vogella.com/tutorials/Mockito/article.html)
+	* [RxJava Unit Testing](https://medium.com/mobile-engineering/rxjava-unit-testing-examples-a26af80dfce4)
 - [ ] Write and execute a device UI test  
 - [ ] Given a problem description, replicate the failure
 - [ ] Use the system log to output debug information
