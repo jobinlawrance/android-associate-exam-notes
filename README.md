@@ -65,6 +65,7 @@ Determining appropriate use cases for local persisted data, and designing soluti
 
 Determining appropriate use cases for local persisted data, and designing solutions to implement data storage using files, preferences, and databases. This includes implementing strategies for bundling static data with applications, caching data from remote sources, and managing user-generated private data. Candidates should also be able to describe platform features that allow applications to store data securely and share that data with other applications in Persistent Data Storage.
 
-- [ ] Create an app widget that displays on the device home screen
-- [ ] Implement a task to update the app widget periodically
-- [ ] Create and display a notification to the user
+- [x] Create an app widget that displays on the device home screen
+	* [https://blog.mindorks.com/android-widgets-ad3d166458d3](https://blog.mindorks.com/android-widgets-ad3d166458d3)
+- [x] Implement a task to update the app widget periodically
+- [x] Create and display a notification to the user
