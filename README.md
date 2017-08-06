@@ -50,16 +50,22 @@ Understanding of Android's top-level application components (Activity, Service, 
 
 Determining appropriate use cases for local persisted data, and designing solutions to implement data storage using files, preferences, and databases. This includes implementing strategies for bundling static data with applications, caching data from remote sources, and managing user-generated private data. Candidates should also be able to describe platform features that allow applications to store data securely and share that data with other applications in.
 
-- [ ] Define a database schema; include tables, fields, and indices
-- [ ] Create an application-private database file
-- [ ] Construct database queries returning single results
-- [ ] Construct database queries returning multiple results
-- [ ] Insert new items into a database
-- [ ] Update or delete existing items in a database
-- [ ] Expose a database to other applications via Content Provider
-- [ ] Read and parse raw resources or asset files
-- [ ] Create persistent preference data from user input
-- [ ] Toggle application logic based on preference values  
+- [x] Define a database schema; include tables, fields, and indices
+	* [Local dB with SQLiteOpenHelper](http://guides.codepath.com/android/local-databases-with-sqliteopenhelper#overview)
+- [x] Create an application-private database file
+- [x] Construct database queries returning single results
+- [x] Construct database queries returning multiple results
+- [x] Insert new items into a database
+- [x] Update or delete existing items in a database
+- [x] Expose a database to other applications via Content Provider  
+	* [Creating Provider](http://www.grokkingandroid.com/android-tutorial-writing-your-own-content-provider/)  
+	* [Creating Provider - codepath](https://guides.codepath.com/android/Creating-Content-Providers)  
+	* [Consuming Provider](http://www.grokkingandroid.com/android-tutorial-using-content-providers/)  
+	* [Example](https://gist.github.com/jobinlawrance/4ba0b04b732f79fa8116e1c9cda8417a)  
+- [x] Read and parse raw resources or asset files
+	* [Intro](https://commonsware.com/Android/previews/assets-files-and-data-parsing)
+- [x] Create persistent preference data from user input
+- [x] Toggle application logic based on preference values  
 
 ### Enhanced system integration
 
